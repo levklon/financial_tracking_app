@@ -1,39 +1,29 @@
 # Financial Tracking App
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
-![Django](https://img.shields.io/badge/Django-3.x-green.svg)
+![Django](https://img.shields.io/badge/Django-4.x-green.svg)
 ![React](https://img.shields.io/badge/React-17.x-blue.svg)
-![MySQL](https://img.shields.io/badge/MySQL-5.x-blue.svg)
-![Docker](https://img.shields.io/badge/Docker-19.x-blue.svg)
+![MySQL](https://img.shields.io/badge/MySQL-8.x-blue.svg)
+![Docker](https://img.shields.io/badge/Docker-20.x-blue.svg)
 
+## Project Description
 
-## Description
-
-**Financial Tracking App** is a web application for personal finance tracking. It allows users to add and categorize their income and expenses, visualize financial data with charts and graphs, and generate reports for various time periods. The application offers an intuitive interface and powerful analytical tools for making informed financial decisions.
+The Financial Tracking App is a web application for managing personal finances. It allows users to register, add, edit, and delete transactions, as well as export data in PDF and Excel formats. The application provides an intuitive interface for tracking income and expenses with the ability to filter data.
 
 ## Key Features
 
-- ### User Registration and Authentication
-  - **User registration**
-  - **User login and logout**
-  - **CSRF protection**
-
-- ### Transaction Management
-  - **Adding, editing, and deleting transactions**
-  - **Categorizing transactions by category**
-
-- ### Data Visualization
-  - **Displaying charts and graphs for financial data analysis**
-
-- ### Report Generation
-  - **Creating reports for selected time periods**
+- User registration and authentication
+- Management of income and expense categories
+- Adding, editing, and deleting transactions
+- Filtering transactions by categories and dates
+- Data export to PDF and Excel
 
 ## Technology Stack
 
-- **Frontend**: React, Axios, Material-UI
-- **Backend**: Django, Django REST Framework
-- **Database**: MySQL
-- **Containerization**: Docker
+- **Backend:** Django, Django REST Framework
+- **Frontend:** React, Axios
+- **Database:** MySQL
+- **Containerization:** Docker
 
 ## Installation and Setup
 
@@ -45,14 +35,14 @@
 
 ### Installation Steps
 
-1. **Clone the repository**:
+1. **Clone the repository:**
 
     ```bash
     git clone https://github.com/levklon/financial_tracking_app.git
     cd financial_tracking_app
     ```
 
-2. **Set up and activate the virtual environment for the backend**:
+2. **Set up and activate the virtual environment for the backend:**
 
     ```bash
     cd backend
@@ -60,13 +50,13 @@
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3. **Install backend dependencies**:
+3. **Install backend dependencies:**
 
     ```bash
     pip install -r requirements.txt
     ```
 
-4. **Apply migrations and create a superuser**:
+4. **Apply migrations and create a superuser:**
 
     ```bash
     python manage.py makemigrations
@@ -74,13 +64,13 @@
     python manage.py createsuperuser
     ```
 
-5. **Start the Django server**:
+5. **Start the Django server:**
 
     ```bash
     python manage.py runserver
     ```
 
-6. **Set up the frontend**:
+6. **Set up the frontend:**
 
     ```bash
     cd ../frontend
@@ -88,7 +78,7 @@
     npm start
     ```
 
-7. **Start Docker containers**:
+7. **Start Docker containers:**
 
     ```bash
     docker-compose up --build
@@ -96,7 +86,7 @@
 
 ## API Documentation
 
-For API documentation, it is recommended to use tools like Swagger or ReDoc. This will automatically generate the documentation and make it easy to integrate into the project.
+For automatic API documentation generation, it is recommended to use tools like Swagger or ReDoc to simplify project integration.
 
 ## Testing
 
@@ -133,8 +123,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions or suggestions, you can reach out to me via [Telegram](https://t.me/levklon).
+If you have any questions or suggestions, you can reach out to me via [Telegram](https://t.me/nemorosi).
 
 ---
 
 This README was created to make it easier for developers to work with this project. Your suggestions and feedback are welcome!
+
